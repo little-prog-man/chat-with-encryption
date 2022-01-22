@@ -9,10 +9,9 @@ import hashlib
 import sys
 import random
 
-# 5.101.50.196
 
 PORT = 5050
-SERVER = "192.168.0.104"
+SERVER = "127.0.0.1"
 ADDRESS = (SERVER, PORT)
 FORMAT = "utf-8"
 is_key_received = False
