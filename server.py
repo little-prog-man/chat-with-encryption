@@ -6,10 +6,8 @@ import encrypt_decrypt
 import json
 import time
 
-# 5.101.50.196
-
 class Server:
-    def __init__(self, address, key=None, port=5050, ip="192.168.0.104", format="utf-8"):
+    def __init__(self, address, key=None, port=5050, ip="127.0.0.1", format="utf-8"):
         self.clients, self.names = [], []
         self.symbs = symbs
         self.port = port
